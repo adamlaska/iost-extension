@@ -72,7 +72,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^9.0.0",
     "babel-loader": "^8.0.0",
     "brfs": "^2.0.1",
     "browserify": "^16.2.3",
