@@ -27,7 +27,7 @@
     "dotenv": "^6.0.0",
     "dotenv-webpack": "^1.5.7",
     "elliptic": "^6.4.1",
-    "gulp": "^4.0.0",
+    "gulp": "^5.0.0",
     "hash.js": "^1.1.7",
     "iost": "0.1.19",
     "json-format": "^1.0.1",
