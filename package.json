@@ -15,7 +15,9 @@
     "local": "NODE_ENV=local node ./frontserver.js webpack.config.js --watch",
     "real": "NODE_ENV=real node ./frontserver.js webpack.prod.config.js --watch",
     "start": "NODE_ENV=real node ./frontserver.js webpack.prod.config.js --watch",
-    "start:local": "NODE_ENV=local node ./frontserver.js webpack.prod.config.js --watch"
+    "start:local": "NODE_ENV=local node ./frontserver.js webpack.prod.config.js --watch",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git"
@@ -52,7 +54,8 @@
     "recharts": "^1.4.2",
     "redux": "^4.0.0",
     "redux-thunk": "^2.2.0",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -119,5 +122,6 @@
       "browser": true,
       "node": true
     }
-  }
+  },
+  "snyk": true
 }
